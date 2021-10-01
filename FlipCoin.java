@@ -11,11 +11,11 @@ public class FlipCoin {
 			counter++;
 			if(Math.random() <0.5 )
 			{
-				heads++;
+				tails++;
 			}
 			else
 			{
-				tails++;
+				heads++;
 			}
 		}
 		double headsPercentage = (double) heads/numberOfFlips * 100;
